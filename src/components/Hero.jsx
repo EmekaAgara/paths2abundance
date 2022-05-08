@@ -10,7 +10,7 @@ const Hero = () => {
                 <p className='text-2xl'>A global charity platform</p>
                 <h1 className='py-3 text-5xl md:text-7xl font-bold'>Paths2 <br/>Abundance</h1>
                 <p className='text-2xl'>Help communities help themselves</p>
-                <button className='py-3 px-6 sm:w-[60%] my-4'>Make a Donation</button>
+                <button className='py-3 px-6 sm:w-[60%] my-4'>Submit a project</button>
             </div>
             <div>
                 <img className='w-full' src={bgImg} alt="/" />
