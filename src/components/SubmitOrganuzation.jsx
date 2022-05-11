@@ -2,24 +2,24 @@
 import React from 'react'
 // import { Input } from 'postcss'
 
-function SubmitProject() {
+function SubmitOrganization() {
   return (
     <div class="bg-gray-100 min-h-screen flex items-center">
       <div class="w-full">
         <div class="space-y-12 md:text-center">
           <div class="max-w-3xl pt-7 mb-10 space-y-5 sm:mx-auto sm:space-y-4">
-              <h2 class="relative text-4xl font-extrabold tracking-tight sm:text-5xl">Submit a project</h2>
-                <p class="text-xl text-gray-500">Fill this form to submit a project.</p>
+              <h2 class="relative text-4xl font-extrabold tracking-tight sm:text-5xl">Register your Organization</h2>
+                <p class="text-xl text-gray-500">Fill this form to register an organization.</p>
                   </div>
             </div>
 
               <div class="bg-white p-10 rounded-lg shadow md:w-3/4 mx-auto lg:w-1/2">
               <div>
 
-                {/* PROJECT IMAGE UPLOAD */}
+                {/* Organization IMAGE UPLOAD */}
 
                   <div class="">
-                    <label for="name" class="block mb-2 font-bold text-gray-600">Project Image</label>
+                    <label for="name" class="block mb-2 font-bold text-gray-600">Organization Image</label>
                 
                   </div>
                     <div className="mb-2 mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
@@ -56,12 +56,12 @@ function SubmitProject() {
 
                 <form action="">
                   <div class="mb-5">
-                    <label for="name" class="block mb-2 font-bold text-gray-600">Project name</label>
+                    <label for="name" class="block mb-2 font-bold text-gray-600">Organization name</label>
                     <input type="text" id="name" name="name" placeholder="Enter project name." class="border border-gray-300 shadow p-3 w-full rounded"/>
                   </div>
 
                   <div class="mb-5">
-                    <label for="name" class="block mb-2 font-bold text-gray-600">Description</label>
+                    <label for="name" class="block mb-2 font-bold text-gray-600">About organization</label>
                     <input type="text" id="name" name="name" placeholder="" class="border border-gray-300 shadow p-3 py-10 w-full rounded"/>
                   </div>
 
@@ -77,18 +77,10 @@ function SubmitProject() {
                   </div>
 
                   <div class="mb-5">
-                    <label for="name" class="block mb-2 font-bold text-gray-600">Budget</label>
-                    <input type="text" id="name" name="name" placeholder="Enter project budget.(USD)" class="border border-gray-300 shadow p-3 w-full rounded"/>
-                  </div>
-
-                  <div class="mb-5">
-                    <label for="name" class="block mb-2 font-bold text-gray-600">Duration</label>
-                    <input type="text" id="name" name="name" placeholder="Enter duration in days." class="border border-gray-300 shadow p-3 w-full rounded"/>
+                    <label for="name" class="block mb-2 font-bold text-gray-600">Website</label>
+                    <input type="text" id="name" name="name" placeholder="Enter organization website" class="border border-gray-300 shadow p-3 w-full rounded"/>
                   </div>
                   
-
-
-
                   <button class="block w-full bg-blue-500 text-white font-bold p-4 rounded-lg">Submit</button>
                 </form>
         </div>
@@ -99,4 +91,4 @@ function SubmitProject() {
   )
 }
 
-export default SubmitProject
+export default SubmitOrganization
