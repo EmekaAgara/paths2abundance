@@ -7,6 +7,8 @@ import Solutions from './components/Solutions';
 import Projects from './components/Projects';
 import SubmitProject from './components/SubmitProject';
 import SubmitOrganization from './components/SubmitOrganuzation';
+import OrganizationsSingle from './components/OrganizationsSingle'
+import ProjectsSingle from './components/ProjectsSingle';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
     <SubmitProject/>
     {/* <Organizations/> */}
     <SubmitOrganization/>
+    <OrganizationsSingle/>
+    <ProjectsSingle/>
 
     </>
   );

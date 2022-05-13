@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-scroll'
 
 
+
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 
 const Navbar = () => {
