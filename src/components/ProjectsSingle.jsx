@@ -14,7 +14,7 @@ function ProjectsSingle() {
       <h5 class="text-gray-900 text-xl font-medium mb-2">Duration:</h5>
       <h5 class="text-gray-900 text-xl font-medium mb-2">Budget:</h5>
       <h5 class="text-gray-900 text-xl font-medium mb-2">Amount Donated:</h5>
-      <p class="text-gray-700 text-base mb-2"> Description of the project and what the project is about </p>
+      <p class="text-gray-700 text-base mb-2"> Description of the project and what project is about </p>
       
         <div class="mb-5">
             <input type="text" id="amount" name="amount" placeholder="Enter an amount." class="border border-gray-300 shadow p-3 w-full rounded"/>
